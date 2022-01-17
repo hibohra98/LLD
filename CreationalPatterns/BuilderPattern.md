@@ -44,7 +44,7 @@ class PlaneBuilder{
 };
 
 //concrete child class 1
-class propellerBuilder : public PlaneBuilder{
+class PropellerBuilder : public PlaneBuilder{
   public:
     void getPartsDone(){
       _plane = new Plane("Propeller Builder");
@@ -71,10 +71,11 @@ class JetBuilder : public PlaneBuilder{
     }
 };
 
-class director{
+class Director{
+     PlaneBuilder *builder;
   public:
     //method to create plane using builder
-    Plane *createplane(PlaneBuilder *builder){
+    Plane *createPlane(PlaneBuilder *builder){
       builder->getPartsDone();
       builder->buildBody();
       builder->buildEngine();
@@ -87,12 +88,14 @@ int main(){
   JetBuilder jb;
   PropellerBuilder pb;
   // jbp -> jetbuilder plane, pbp -> propeller builder plane
-  Plane *jbp = dir.createPlane(jb);
-  Plane *pbp = dir.createPlane(pb);
+  Plane *jbp = dir.createPlane(&jb);
+  Plane *pbp = dir.createPlane(&pb);
   jbp->show();
   pbp->show();
   
 }
+
+
 
 
 ```
