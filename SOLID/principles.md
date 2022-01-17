@@ -17,7 +17,7 @@ Code Examples:
 Single Responsibility
 =========================
 
-```
+```cpp
 
 What Not to do:
 
@@ -51,7 +51,7 @@ void SendCoffeeMetrics(){
 Open-Closed
 =========================
 
-```
+```cpp
 
 What Not to do:
 class coffeeMachine{
@@ -91,7 +91,7 @@ class RoastSetting{
 Liskov's substitution
 =========================
 
-```
+```cpp
 Correct Way:
 //Base class
 class Roaster{
@@ -126,7 +126,7 @@ class x{
 Interface Seggregation
 =========================
 
-```
+```cpp
 What not to do ?
 
 class machine{
@@ -190,7 +190,7 @@ Dependency Inversion Principle
 Laptop <--HDMI CABLE--> Monitor
 
 Help create loosely coupled software
-```
+```cpp
 
 What not to do ?
 Class CoffeeMachine{
