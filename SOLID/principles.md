@@ -1,5 +1,6 @@
 SOLID principles are Object Oriented Design Principles used to create softwares that the Maintainable, extensible and reusable
 
+```
 S - Single Responsibility - Single Class Should have single Purpose, proper separation of concerns
 
 O - Open Closed - Classes should be open for extension but closed for modification. Easily extensible without changing the code of the class
@@ -9,6 +10,7 @@ L - Liskov's Substitution - Behavioral Class Substitution. If Class A is derived
 I - Interface Segregation - Favour Multiple specific interfaces over single interface. Clients should not be forced to implement method they dont need[From abstract class].
 
 D - Dependency Inversion - Depend on Abstraction and not implementation
+```
 
 Code Examples:
 
