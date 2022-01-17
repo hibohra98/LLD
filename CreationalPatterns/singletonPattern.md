@@ -12,31 +12,33 @@ Code Example
 ```cpp
 
 #include<iostream>
+using namespace std;
 
 class GlobalCoffeeConfig{
   private:
-    
+    static GlobalCoffeeConfig *p;
     GlobalCoffeeConfig(){}
   public:
-   GlobalCoffeeConfig(GlobalCoffeeConfig const &) = delete;
-   GlobalCoffeeConfig & operator = GlobalCoffeeConfig const & = delete;
-   static GlobalCoffeeConfig &getConfigInstance(){
-      static GlobalCoffeeConfig p;
-      if(p==nullptr){
-        p = new GlobalCoffeeConfig;
+   static GlobalCoffeeConfig* getConfigInstance(){
+     
+      if(p==NULL){
+        p = new GlobalCoffeeConfig();
       }
-     else
+     
        return p;
    }
+   GlobalCoffeeConfig(const GlobalCoffeeConfig&) = delete;
+   GlobalCoffeeConfig& operator= (const GlobalCoffeeConfig&) = delete;
   void showConfig(){
     std::cout << "We are in coffee class"<<std::endl;
   }
 };
 
 
-int main(){
-  GlobalCoffeeConfig& t  = GlobalCoffeeConfig::getConfigInstance();
-    t.showConfig();
-}
+GlobalCoffeeConfig * GlobalCoffeeConfig::p = NULL;
 
+int main(){
+  GlobalCoffeeConfig* t  = GlobalCoffeeConfig::getConfigInstance();
+    t->showConfig();
+}
 ```
