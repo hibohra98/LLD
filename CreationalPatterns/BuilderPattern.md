@@ -6,6 +6,7 @@ Code Example
 ```cpp
 
 #include<iostream>
+using namespace std;
 
 //end product
 class Plane{
