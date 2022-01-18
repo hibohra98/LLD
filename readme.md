@@ -11,5 +11,5 @@ SOLID Principles (https://github.com/hibohra98/LLD/blob/main/SOLID/principles.md
 * Structural Patterns
   * [Observer Pattern](https://github.com/hibohra98/LLD/blob/main/StructuralPatterns/ObserverPattern.md)
 
-**Some Modern c++ terms used:**
+**Some Modern c++ elements used:**
 unique_ptr, make_unique -> Smart Pointers
