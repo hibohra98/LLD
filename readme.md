@@ -11,7 +11,7 @@ Below are quick access links:
 * Structural Patterns
   * [Adapter Pattern](https://github.com/hibohra98/LLD/blob/main/StructuralPatterns/adapterpattern.md)
 
-* Behavioural Patterns
+* Behavioral Patterns
   * [Observer Pattern](https://github.com/hibohra98/LLD/blob/main/BehaviouralPatterns/ObserverPattern.md)
 
 **Some Modern c++ elements used:**
