@@ -74,6 +74,6 @@ int main(){
   return 0;
 }
 
-//Code Needs C++14 and higher for usage for unique_ptr and make_unique 
+//Code Needs C++14 and higher for usage of unique_ptr and make_unique 
 
 ```
