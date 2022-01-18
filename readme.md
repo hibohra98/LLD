@@ -12,7 +12,7 @@ Below are quick access links:
   * [Adapter Pattern](https://github.com/hibohra98/LLD/blob/main/StructuralPatterns/adapterpattern.md)
 
 * Behavioral Patterns
-  * [Observer Pattern](https://github.com/hibohra98/LLD/blob/main/BehaviouralPatterns/ObserverPattern.md)
+  * [Observer Pattern](https://github.com/hibohra98/LLD/blob/main/BehavioralPatterns/ObserverPattern.md)
 
 **Some Modern c++ elements used:**
 unique_ptr, make_unique -> Smart Pointers
