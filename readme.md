@@ -13,6 +13,7 @@ Below are quick access links:
 
 * Behavioral Patterns
   * [Observer Pattern](https://github.com/hibohra98/LLD/blob/main/BehavioralPatterns/ObserverPattern.md)
+  * [Strategy Pattern](https://github.com/hibohra98/LLD/blob/main/BehavioralPatterns/strategyPattern.md)
 
 **Some Modern c++ elements used:**
 unique_ptr, make_unique -> Smart Pointers
