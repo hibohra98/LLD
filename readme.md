@@ -7,6 +7,7 @@ Below are quick access links:
 * Creational Design Patterns
   * [Singleton Pattern](https://github.com/hibohra98/LLD/blob/main/CreationalPatterns/singletonPattern.md)
   * [Builder Pattern](https://github.com/hibohra98/LLD/blob/main/CreationalPatterns/BuilderPattern.md)
+  * [Factory Method](https://github.com/hibohra98/LLD/blob/main/CreationalPatterns/factoryMethod.md)
 
 * Structural Patterns
   * [Adapter Pattern](https://github.com/hibohra98/LLD/blob/main/StructuralPatterns/adapterpattern.md)
