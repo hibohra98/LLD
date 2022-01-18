@@ -9,8 +9,10 @@ Below are quick access links:
   * [Builder Pattern](https://github.com/hibohra98/LLD/blob/main/CreationalPatterns/BuilderPattern.md)
 
 * Structural Patterns
-  * [Observer Pattern](https://github.com/hibohra98/LLD/blob/main/StructuralPatterns/ObserverPattern.md)
   * [Adapter Pattern](https://github.com/hibohra98/LLD/blob/main/StructuralPatterns/adapterpattern.md)
+
+* Behavioural Patterns
+  * [Observer Pattern](https://github.com/hibohra98/LLD/blob/main/BehaviouralPatterns/ObserverPattern.md)
 
 **Some Modern c++ elements used:**
 unique_ptr, make_unique -> Smart Pointers
