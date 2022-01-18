@@ -10,6 +10,7 @@ Below are quick access links:
 
 * Structural Patterns
   * [Observer Pattern](https://github.com/hibohra98/LLD/blob/main/StructuralPatterns/ObserverPattern.md)
+  * [Adapter Patter](https://github.com/hibohra98/LLD/blob/main/StructuralPatterns/adapterpattern.md)
 
 **Some Modern c++ elements used:**
 unique_ptr, make_unique -> Smart Pointers
